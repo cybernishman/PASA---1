@@ -1,4 +1,4 @@
-# PASA---1
+# Power Automate-Security Automation PASA---1
 No-code security alert system built with Microsoft Power Automate Desktop. Monitors logs, alerts users, and responds to threats.
 # No-Code Security Event Detection & Response using Power Automate Desktop
 
