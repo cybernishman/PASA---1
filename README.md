@@ -38,5 +38,5 @@ This project demonstrates how to use Microsoft Power Automate Desktop (PAD) to a
 > Power Automate Desktop doesn’t support native export/import for local flows. This repo is fully documented so anyone can rebuild it!
 
 ---
-*Built as a hands-on weekend project. Connect with me on [LinkedIn](YOUR-LINKEDIN-PROFILE](https://www.linkedin.com/in/manish-pulluru-918507196/)) for questions or feedback!*
+*Built as a hands-on weekend project. Connect with me on [LinkedIn](https://www.linkedin.com/in/manish-pulluru-918507196/) for questions or feedback!*
 
