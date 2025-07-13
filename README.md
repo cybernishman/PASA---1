@@ -2,29 +2,41 @@
 No-code security alert system built with Microsoft Power Automate Desktop. Monitors logs, alerts users, and responds to threats.
 # No-Code Security Event Detection & Response using Power Automate Desktop
 
-## Project Overview
-This project demonstrates how to use Microsoft Power Automate Desktop to automate basic security event detection, alerting, and response—all with no coding required.
+## Saturday Afternoon Project 🚀
 
-**Features:**
+This project demonstrates how to use Microsoft Power Automate Desktop (PAD) to automate basic security event detection, alerting, and response—all without writing code.
+
+### Features
 - Monitors a log file for failed login attempts
 - Displays an on-screen alert
 - Logs incidents to an alert log file
-- (Optional) Locks the workstation when a suspicious event is detected
+- (Optional) Locks the workstation if a suspicious event is detected
 
-## Project Files
-- **Project Report:** Security_Automation_PAD_Project_Report.pdf
-- **Screenshots:** (Add any screenshots here)
-- **Sample Log File:** security_log.txt (Optional, for demo purposes)
+### How to Recreate This Flow in Power Automate Desktop
 
-## How to Use
-1. Open the PDF for full details and step-by-step instructions.
-2. (Optional) Import the included Power Automate Desktop flow.
+1. **Read text from file:** Reads the security_log.txt contents.
+2. **Split text:** Splits by new line, output as TextList.
+3. **For each:** Iterates over TextList.
+4. **If:** Checks if CurrentItem contains "LOGIN_FAILED".
+    - If true:
+        - Display message: Alert popup.
+        - Append line to text: Add to Result.
+        - Write text to file: Log alert in alert_log.txt.
+        - Run application: Lock workstation (optional).
 
-## Real-World Use Cases
+
+### Real-World Use Cases
 - Small business or home PC security automation
 - Hands-on learning for IT/cybersecurity beginners
 - Lightweight SOC for SMBs
 
----
+### Files Included
+- Project Report (PDF)
+- Screenshots of the PAD flow
+- Sample log file
 
-*Built as a Saturday afternoon project! Connect with me on LinkedIn for questions or feedback.*
+> Power Automate Desktop doesn’t support native export/import for local flows. This repo is fully documented so anyone can rebuild it!
+
+---
+*Built as a hands-on weekend project. Connect with me on [LinkedIn](YOUR-LINKEDIN-PROFILE](https://www.linkedin.com/in/manish-pulluru-918507196/)) for questions or feedback!*
+
